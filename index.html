@@ -25,28 +25,62 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h3>Github for Beginners</h3>
-					<p>https://github.com/werwty</p>
+					<h2>An Introduction to GitHub</h2>
+					<br/><img height="400px" src="https://images.seeklogo.net/2015/09/github-mark-logo.png">
 				</section>
 
 				<section>
 					<h2>Version Control</h2>
 					<img src="http://www.datamation.com/imagesvr_ce/3829/version-control.jpg"/>
-					<br/><small>http://geek-and-poke.com/</small>
+					<br/>
+
+					<small>http://geek-and-poke.com/</small>
+					<!--What is version control?
+					 A way to keep copies of data at multiple points in time-->
 				</section>
 				<section>
-					<h2>Git</h2>
-					<img src="https://git-scm.com/book/en/v2/images/distributed.png"/>
-					<br/><small>https://git-scm.com/book/en/v2/images/distributed.png</small>
+					<h2>Version Control</h2>
+					<img height="500px" src="http://www.phdcomics.com/comics/archive/phd101212s.gif">
+					<br/>
+					<small>http://www.phdcomics.com</small>
 				</section>
+
+				<section><h1>Git Basics</h1></section>
 				<section>
 					<h2>Repository</h2>
+					<!--A collection of different files -->
 				</section>
+
 				<section>
 					<h2>History</h2>
+					<img src="https://imgs.xkcd.com/comics/git_commit.png"/>
+					<br/><small>http://xkcd.com/</small>
 				</section>
 				<section>
+					<h2>Git is a <div class="fragment strike">Time Machine</div></h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/TeamTimeCar.com-BTTF_DeLorean_Time_Machine-OtoGodfrey.com-JMortonPhoto.com-01.jpg" height="400px"/>
+					<br/><small>https://upload.wikimedia.org</small>
+					<!--does this make git a time machine? With the ability to access data that at different points in time?
+					Well... yes
+					 but it's also so much more-->
+				</section>
+
+
+				<section>
 					<h2>Branches</h2>
+					<!-- an alternate history,
+					use branches to work on specific features-->
+				</section>
+				<section>
+					<h3>Git is a Creator of Parallel Worlds</h3>
+					<img src="https://c1.staticflickr.com/4/3098/2624785951_d90f2d7c62_b.jpg" height="400px"/>
+					<small>https://c1.staticflickr.com/4/3098/2624785951_d90f2d7c62_b.jpg</small>
+					<!-- we can keep track of different worlds with different pasts-->
+				</section>
+
+				<section>
+					<h2>Distributed</h2>
+					<!--working with other people-->
 				</section>
 
 				<section>
@@ -54,8 +88,24 @@
 				</section>
 
 				<section>
-					<h2>Remote and Local</h2>
+					<h2>What is it good for?</h2>
+					<ul>
+						<li class="fragment">Makes open source collaboration easy and fun</li>
+						<li class="fragment">The single best thing you can have in your resumé</li>
+						<li class="fragment">Industry standard</li>
+						<li class="fragment">Packed with useful features</li>
+						<li class="fragment">Integrates with everything</li>
+					</ul>
 				</section>
+
+				<section>
+					<h1>www.github.com</h1>
+				</section>
+				<section>
+					<img src="http://blogs.law.harvard.edu/acts/files/2014/11/versioncontrol-allthethings.jpg"/>
+					<br/><small>http://blogs.law.harvard.edu/acts/files/2014/11/versioncontrol-allthethings.jpg</small>
+				</section>
+
 
 
 
@@ -69,11 +119,7 @@
 					<img height="500px" src="https://static1.squarespace.com/static/518f5d62e4b075248d6a3f90/t/529265dee4b03e7a0729af8a/1385326056122/git-blame2.jpg"/>
 					<br/><small>http://geek-and-poke.com/</small>
 				</section>
-				<section>
-					<h3>Git Commit</h3>
-					<img src="https://imgs.xkcd.com/comics/git_commit.png"/>
-					<br/><small>http://xkcd.com/</small>
-				</section>
+
 				<section>
 					<h2>Installing Git</h2>
 					<h3>http://bit.ly/1WQ50nb</h3>
@@ -84,9 +130,9 @@
 					<br/><small>http://xkcd.com/</small>
 				</section>
 				<section>
-					<img src="http://blogs.law.harvard.edu/acts/files/2014/11/versioncontrol-allthethings.jpg"/>
-					<br/><small>http://blogs.law.harvard.edu/acts/files/2014/11/versioncontrol-allthethings.jpg</small>
+					<img src="https://camo.githubusercontent.com/e485fef1b0a39b7a4abf606796a7d4e79cbc538d/687474703a2f2f6375727469732e6c617373616d2e6e65742f636f6d6963732f637562655f64726f6e652f32302e676966">
 				</section>
+
 
 			</div>
 		</div>
@@ -98,7 +144,10 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
-
+			    parallaxBackgroundImage: './f25wallpaper.png', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+				parallaxBackgroundSize: '100%',
+				parallaxBackgroundHorizontal: 0,
+    			parallaxBackgroundVertical: 0,
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
